@@ -9,9 +9,9 @@ Nomeclatura de Tabelas
 prefixo: tbl_
 colunas com mais de um substantivo: separador é o _
 
-[ tbl_categoria | Tabela para armazenar as categorias de produtos ]
 
 | nome | descricao
 |------------------------|------------------------
-| tbl_categoria   | Tabela para armazenar as categorias de produtos <br/> (`tbl_categoria`) 
+| tbl_categoria   | Tabela para armazenar as categorias de produtos <br/> `tbl_categoria (id_categoria, nome_categoria)`
+| tbl_produto   | Tabela para armazenar os dados de produtos <br/> `tbl_produto (id_produto, nome_produto, descricao_produto, preco_produto, fk_categoria)`
 
